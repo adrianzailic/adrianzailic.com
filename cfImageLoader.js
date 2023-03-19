@@ -1,5 +1,13 @@
 // cfImageLoader.js
-export default function cfImageLoader({ src, width, quality }) {
-    const params = [`width=${width}`, `quality=${quality || 75}`, 'format=auto']
-    return `https://adrianzailic.com/cdn-cgi/image/${params.join(',')}/${src}`
-}
+const normalizeSrc = src => {
+    return src.startsWith('/') ? src.slice(1) : src;
+};
+
+export default function cloudflareLoader({ src, width, quality }) {
+    const params = [`width=${width}`];
+    if (quality) {
+        params.push(`quality=${quality}`);
+    }
+    const paramsString = params.join(',');
+    return `/cdn-cgi/image/${paramsString}/${normalizeSrc(src)}`;
+};
