@@ -19,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
+          <title>{`Adrian Zailic - Exploring the Romanian Tech Scene and the Latest Innovations`}</title>
         </Head>
         <Container>
           <Intro />
