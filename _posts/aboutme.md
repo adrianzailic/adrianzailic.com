@@ -1,6 +1,6 @@
 ---
-title: 'About me'
-excerpt: 'Who am I? I'm Adrian Zailic, a hands-on software architect/team lead specializing in Microservices and Single Page Applications (SPA). Always up to date with the latest technologies, closely following all the innovations/changes in the AI/ML space and the web ecosystem.'
+title: 'About Me'
+excerpt: "Who am I? I'm Adrian Zailic, a hands-on software architect/team lead specializing in Microservices and Single Page Applications (SPA). Always up to date with the latest technologies, closely following all the innovations/changes in the AI/ML space and the web ecosystem."
 coverImage: '/assets/blog/aboutme/aboutme-adrianzailic.webp'
 date: '2023-03-01T07:35:07.322Z'
 author:
@@ -19,5 +19,5 @@ I will be taking you with me to explore the Romanian Tech scene by writing about
 So stay tuned for the upcoming posts... 
 
 P.S. Meanwhile you can follow me on the below social networks  
-[LinkedIn](https://www.linkedin.com/in/adrianzailic/)
-[Instagram](https://www.instagram.com/adrianzailic/)
+[LinkedIn Profile](https://www.linkedin.com/in/adrianzailic/)   
+[Instagram Profile](https://www.instagram.com/adrianzailic/)
