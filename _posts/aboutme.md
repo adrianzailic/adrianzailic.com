@@ -19,5 +19,5 @@ I will be taking you with me to explore the Romanian Tech scene by writing about
 So stay tuned for the upcoming posts... 
 
 P.S. Meanwhile you can follow me on the below social networks  
-[LinkedIn Profile](https://www.linkedin.com/in/adrianzailic/)   
-[Instagram Profile](https://www.instagram.com/adrianzailic/)
+**[LinkedIn Profile](https://www.linkedin.com/in/adrianzailic/)**   
+**[Instagram Profile](https://www.instagram.com/adrianzailic/)**
