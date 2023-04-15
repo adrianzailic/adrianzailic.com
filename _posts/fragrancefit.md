@@ -20,10 +20,13 @@ At the same time, when a potential client enters a fragrance shop, they might no
 
 Our solution is based on a ML Computer Vision system built around an array of smart cameras placed all over the store that would capture the facial expressions of the potential clients while they are testing a fragrance, understand their emotional response to the fragrances, construct a profile of preferences and recommend the best matching perfume for their particular tastes.
 
-All this data would be captured in a database and be available in real-time to the store consultants so that they could come and directly recommend a particular fragrance based on it.
+![FragranceFit Solution](/assets/blog/fragrancefit/fragrancefit-solution.webp)
+
+All this data would be captured in a database and be available in real-time to the store consultants on a mobile app so that they could come and directly recommend a particular fragrance based on it.
 
 Click on the image below to see the presentation video
 [![FragranceFit Presentation Video](http://img.youtube.com/vi/nwVBCGnvoxg/maxresdefault.jpg)](http://www.youtube.com/watch?v=nwVBCGnvoxg)
 
 We've also done a nice social media campaign to raise awareness and see how would such a solution be accepted within regular perfume buyers. Check the picture below too see the results. 
 
+![FragranceFit Survey](/assets/blog/fragrancefit/fragrancefit-survey.webp)
