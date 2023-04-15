@@ -22,6 +22,8 @@ Our solution is based on a ML Computer Vision system built around an array of sm
 
 ![FragranceFit Solution](/assets/blog/fragrancefit/fragrancefit-solution.webp)
 
+![FragranceFit Solution Achitecture](/assets/blog/fragrancefit/solution-architecture.gif)
+
 All this data would be captured in a database and be available in real-time to the store consultants on a mobile app so that they could come and directly recommend a particular fragrance based on it.
 
 Click on the image below to see the presentation video
