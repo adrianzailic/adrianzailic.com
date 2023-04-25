@@ -46,7 +46,7 @@ const PostPreview = ({
           className="hover:underline font-bold"
           aria-label={`${title}`}
         >
-          Read more on {title}
+          View full {title} article
         </Link>
       </p>
       <Avatar name={author.name} picture={author.picture} />
