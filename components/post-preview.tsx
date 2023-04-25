@@ -44,6 +44,7 @@ const PostPreview = ({
           as={`/posts/${slug}`}
           href="/posts/[slug]"
           className="hover:underline font-bold"
+          aria-label={`${title}`}
         >
           Read more
         </Link>
