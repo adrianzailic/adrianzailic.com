@@ -50,7 +50,7 @@ const HeroPost = ({
               className="hover:underline font-bold"
               aria-label={`${title}`}
             >
-              Read more
+              Read more on {title}
             </Link>
           </p>
           <Avatar name={author.name} picture={author.picture} />
