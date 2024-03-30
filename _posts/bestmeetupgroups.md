@@ -2,7 +2,7 @@
 title: " Top Picks: IT Meetup Groups in Romania for Tech Proffesionals"
 excerpt: "Romania's tech scene is flourishing, with IT professionals and enthusiasts seeking events to network, learn, and share knowledge. Whether you're a seasoned developer, a budding entrepreneur, or simply curious about the latest tech trends, joining a meetup group can be an excellent way to connect with like-minded individuals and stay updated with industry developments."
 coverImage: "/assets/blog/bestmeetupgroups/citycenter-bucharest.webp"
-date: "2023-03-30T9:15:07.322Z"
+date: "2024-03-30T11:20:07.322Z"
 author:
   name: Adrian Zailic
   picture: "/assets/blog/authors/adrianzailic.webp"
