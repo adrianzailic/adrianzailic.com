@@ -13,7 +13,7 @@ ogImage:
 Bucharest's tech scene is flourishing, with IT professionals and enthusiasts seeking events to network, learn, and share knowledge. Whether you're a seasoned developer, a budding entrepreneur, or simply curious about the latest tech trends, joining a meetup group can be an excellent way to connect with like-minded individuals and stay updated with industry developments. Here are some of the best IT meetup groups in Romania that you should consider being a part of:
 
 ### **Cloud Native Bucharest**
-This is perhaps my favorite group in Bucharest. It is comprised of dedicated software engineers and testers interested in designing and building cloud-native applications, microservices architecture, Kubernetes, and maintaining high-quality assurance processes. They typically host one or two events per month, mostly located in the city center, either at their headquarters, Adore's me HQ, or at a partner's venue (often at eSolutions Academy).
+This is perhaps my favorite group in Bucharest. It is comprised of dedicated software engineers and testers interested in designing and building cloud-native applications, microservices architecture, Kubernetes, and maintaining best practices in their quality assurance processes. They typically host one or two events per month, mostly located in the city center, either at their headquarters, Adore's me HQ, or at a partner's venue (often at eSolutions Academy).
 
 Meetup link: **[https://www.meetup.com/cloud-native-bucharest/](https://www.meetup.com/cloud-native-bucharest/)**   
 
