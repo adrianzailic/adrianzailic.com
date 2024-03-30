@@ -22,7 +22,7 @@ Hosted by Aleodor Tabarcea in collaboration with Adobe, this meetup series cover
 
 Meetup link: **[https://www.meetup.com/stories-of-the-web/](https://www.meetup.com/stories-of-the-web/)**   
 
-#### **Angular Bucharest (ngBucharest)**
+### **Angular Bucharest (ngBucharest)**
 As the name suggests, Angular Bucharest is solely focused on Angular topics. It boasts a vibrant community of Angular enthusiasts. If you're working with Angular, attending their events is a great way to stay informed about upcoming features and to connect with like-minded individuals. It also provides an opportunity to find a buddy with whom you can discuss and debate Angular topics, especially if your project team lacks Angular expertise.
 
 Meetup link: **[https://www.meetup.com/AngularJS-Bucharest/](https://www.meetup.com/AngularJS-Bucharest/)**   
