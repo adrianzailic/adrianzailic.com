@@ -32,6 +32,6 @@ While this group leans more towards business-oriented discussions on AI, it stil
 
 Meetup link: **[https://www.meetup.com/artificial-intelligence-bucharest/](https://www.meetup.com/artificial-intelligence-bucharest/)**   
 
-To conclude, Bucharest's IT meetup scene offers a wealth of opportunities for tech enthusiasts to connect, learn, and grow. Whether you're interested in JavaScript, blockchain, agile methodologies, or women in tech initiatives, there's a meetup group out there for you. So why not take the plunge and join one today?
+To conclude, Bucharest's IT meetup scene offers a wealth of opportunities for tech enthusiasts to connect, learn, and grow. Whether you're interested in Cloud Computing, Web technologies, JavaScript, or Artificial Intelligence, there's a meetup group out there for you. So why not take the plunge and join one today?
 
 Cover picture by **[raidenbucharest](https://www.instagram.com/raidenbucharest)** 
