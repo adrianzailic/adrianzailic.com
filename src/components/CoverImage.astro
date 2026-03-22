@@ -1,0 +1,21 @@
+---
+interface Props {
+  title: string;
+  src: string;
+  slug?: string;
+  priority?: boolean;
+}
+
+const { title, src, slug, priority = false } = Astro.props;
+const imageClass = `shadow-sm w-full ${slug ? 'hover:shadow-lg transition-shadow duration-200' : ''}`;
+const loadingAttr = priority ? 'eager' : 'lazy';
+const imageElement = `<img src="${src}" alt="Cover Image for ${title}" class="${imageClass}" width="1300" height="630" loading="${loadingAttr}" />`;
+---
+
+<div class="sm:mx-0">
+  {slug ? (
+    <a href={`/posts/${slug}`} aria-label={title} set:html={imageElement} />
+  ) : (
+    <Fragment set:html={imageElement} />
+  )}
+</div>

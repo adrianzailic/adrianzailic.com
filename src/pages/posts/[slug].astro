@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Container from '../../components/Container.astro';
+import Header from '../../components/Header.astro';
+import PostHeader from '../../components/PostHeader.astro';
+import PostBody from '../../components/PostBody.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<BaseLayout>
+  <Container>
+    <Header />
+    <article class="mb-32">
+      <PostHeader
+        title={post.data.title}
+        coverImage={post.data.coverImage}
+        date={post.data.date}
+        author={post.data.author}
+      />
+      <PostBody>
+        <Content />
+      </PostBody>
+    </article>
+  </Container>
+</BaseLayout>
