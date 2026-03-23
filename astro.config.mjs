@@ -18,9 +18,4 @@ export default defineConfig({
     },
     remotePatterns: [],
   },
-  vite: {
-    build: {
-      cssMinify: 'lightningcss',
-    },
-  },
 });
