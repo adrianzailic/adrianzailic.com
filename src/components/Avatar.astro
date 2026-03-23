@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   name: string;
   picture: string;
@@ -8,6 +10,16 @@ const { name, picture } = Astro.props;
 ---
 
 <div class="flex items-center">
-  <img src={picture} class="w-12 h-12 rounded-full mr-4" alt={name} />
+  <Image
+    src={picture}
+    alt={name}
+    width={48}
+    height={48}
+    class="w-12 h-12 rounded-full mr-4"
+    loading="lazy"
+    format="webp"
+    widths={[48, 96, 192]}
+    sizes="(max-width: 48px) 48px, 96px"
+  />
   <div class="text-xl font-bold">{name}</div>
 </div>

@@ -12,4 +12,15 @@ export default defineConfig({
   build: {
     format: 'directory',
   },
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+    },
+    remotePatterns: [],
+  },
+  vite: {
+    build: {
+      cssMinify: 'lightningcss',
+    },
+  },
 });
