@@ -11,6 +11,8 @@ const allPosts = (await getCollection('blog'))
 
 const heroPost = allPosts[0];
 const morePosts = allPosts.slice(1);
+
+const slug = (post: { id: string }) => post.id.replace(/\.md$/, '');
 ---
 
 <BaseLayout>
@@ -23,9 +25,9 @@ const morePosts = allPosts.slice(1);
         date={heroPost.data.date}
         excerpt={heroPost.data.excerpt}
         author={heroPost.data.author}
-        slug={heroPost.slug}
+        slug={slug(heroPost)}
       />
     )}
-    {morePosts.length > 0 && <MoreStories posts={morePosts.map(p => ({ ...p.data, slug: p.slug }))} />}
+    {morePosts.length > 0 && <MoreStories posts={morePosts.map(p => ({ ...p.data, slug: slug(p) }))} />}
   </Container>
 </BaseLayout>
