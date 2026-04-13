@@ -1,13 +1,13 @@
 ---
 title: " Top Picks: IT Meetup Groups in Bucharest"
 excerpt: "Bucharest's tech scene is flourishing, with IT professionals and enthusiasts seeking events to network, learn, and share knowledge. Whether you're a seasoned developer, a budding entrepreneur, or simply curious about the latest tech trends, joining a meetup group can be an excellent way to connect with like-minded individuals and stay updated with industry developments."
-coverImage: "/assets/blog/bestmeetupgroups/citycenter-bucharest.webp"
+coverImage: "/assets/blog/bestmeetupgroups/bucharest-city-it-groups.webp"
 date: "2024-03-30T11:20:07.322Z"
 author:
   name: Adrian Zailic
   picture: "/assets/blog/authors/adrianzailic.webp"
 ogImage:
-  url: "/assets/blog/bestmeetupgroups/citycenter-bucharest.webp"
+  url: "/assets/blog/bestmeetupgroups/bucharest-city-it-groups.webp"
 ---
 
 Bucharest's tech scene is flourishing, with IT professionals and enthusiasts seeking events to network, learn, and share knowledge. Whether you're a seasoned developer, a budding entrepreneur, or simply curious about the latest tech trends, joining a meetup group can be an excellent way to connect with like-minded individuals and stay updated with industry developments. Here are some of the best IT meetup groups in Romania that you should consider being a part of:
@@ -33,5 +33,3 @@ While this group leans more towards business-oriented discussions on AI, it stil
 Meetup link: **[https://www.meetup.com/artificial-intelligence-bucharest/](https://www.meetup.com/artificial-intelligence-bucharest/)**   
 
 To conclude, Bucharest's IT meetup scene offers a wealth of opportunities for tech enthusiasts to connect, learn, and grow. Whether you're interested in Cloud Computing, Web technologies, JavaScript, or Artificial Intelligence, there's a meetup group out there for you. So why not take the plunge and join one today?
-
-Cover picture by **[raidenbucharest](https://www.instagram.com/raidenbucharest)** 
