@@ -2,15 +2,30 @@
 import Container from '../components/Container.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title = 'Adrian Zailic - Exploring the Romanian Tech Scene and the Latest Innovations',
+  description = 'A blog about the Romanian Tech Scene and the Latest Innovations.',
+  ogImage,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
 
+    <link rel="canonical" href={canonicalURL} />
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
@@ -20,10 +35,20 @@ import '../styles/global.css';
     <meta name="msapplication-TileColor" content="#000000" />
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
     <meta name="theme-color" content="#000" />
-    <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-    <meta name="description" content="A blog about the Romanian Tech Scene and the Latest Innovations." />
+    <meta name="description" content={description} />
 
-    <title>Adrian Zailic - Exploring the Romanian Tech Scene and the Latest Innovations</title>
+    <title>{title}</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
   </head>
   <body>
     <div class="min-h-screen">

@@ -10,6 +10,7 @@ interface Props {
 
 const { title, src, slug, priority = false } = Astro.props;
 const imageClass = `shadow-sm w-full ${slug ? 'hover:shadow-lg transition-shadow duration-200' : ''}`;
+const loading = priority ? 'eager' : 'lazy';
 ---
 
 <div class="sm:mx-0">
@@ -21,7 +22,7 @@ const imageClass = `shadow-sm w-full ${slug ? 'hover:shadow-lg transition-shadow
         width={1300}
         height={630}
         class={imageClass}
-        loading={priority ? 'eager' : 'lazy'}
+        loading={loading}
         format="webp"
         widths={[630, 1300, 2000]}
         sizes="(max-width: 630px) 630px, (max-width: 1300px) 1300px, 2000px"
@@ -35,7 +36,7 @@ const imageClass = `shadow-sm w-full ${slug ? 'hover:shadow-lg transition-shadow
       width={1300}
       height={630}
       class={imageClass}
-      loading={priority ? 'eager' : 'lazy'}
+      loading={loading}
       format="webp"
       widths={[630, 1300, 2000]}
       sizes="(max-width: 630px) 630px, (max-width: 1300px) 1300px, 2000px"

@@ -18,7 +18,11 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BaseLayout>
+<BaseLayout
+  title={`${post.data.title} | Adrian Zailic`}
+  description={post.data.excerpt}
+  ogImage={post.data.ogImage?.url}
+>
   <Container>
     <Header />
     <article class="mb-32">
