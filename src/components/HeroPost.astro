@@ -1,19 +1,16 @@
 ---
-import Avatar from './Avatar.astro';
 import DateFormatter from './DateFormatter.astro';
 import CoverImage from './CoverImage.astro';
-import type Author from '../lib/types';
 
 interface Props {
   title: string;
   coverImage: string;
   date: string;
   excerpt: string;
-  author: Author;
   slug: string;
 }
 
-const { title, coverImage, date, excerpt, author, slug } = Astro.props;
+const { title, coverImage, date, excerpt, slug } = Astro.props;
 ---
 
 <section>
@@ -37,7 +34,6 @@ const { title, coverImage, date, excerpt, author, slug } = Astro.props;
           View full {title} article
         </a>
       </p>
-      <Avatar name={author.name} picture={author.picture} />
     </div>
     <div class="mb-8 md:mb-0 order-1 md:order-2 md:w-1/2">
       <CoverImage title={title} src={coverImage} slug={slug} priority={true} />

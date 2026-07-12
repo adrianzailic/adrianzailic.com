@@ -8,10 +8,6 @@ const blog = defineCollection({
     excerpt: z.string(),
     coverImage: z.string(),
     date: z.string(),
-    author: z.object({
-      name: z.string(),
-      picture: z.string(),
-    }),
     ogImage: z.object({
       url: z.string(),
     }),

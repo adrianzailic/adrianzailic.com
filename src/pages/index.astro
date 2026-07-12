@@ -24,7 +24,6 @@ const slug = (post: { id: string }) => post.id.replace(/\.md$/, '');
         coverImage={heroPost.data.coverImage}
         date={heroPost.data.date}
         excerpt={heroPost.data.excerpt}
-        author={heroPost.data.author}
         slug={slug(heroPost)}
       />
     )}

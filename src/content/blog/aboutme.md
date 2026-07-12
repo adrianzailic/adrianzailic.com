@@ -3,9 +3,6 @@ title: 'About Me'
 excerpt: "Who am I? I'm Adrian Zailic, a hands-on software architect/team lead specializing in Microservices and Single Page Applications (SPA). Always up to date with the latest technologies, closely following all the innovations/changes in the AI/ML space and the web ecosystem."
 coverImage: '/assets/blog/aboutme/aboutme-adrianzailic.webp'
 date: '2023-03-01T07:35:07.322Z'
-author:
-  name: Adrian Zailic
-  picture: '/assets/blog/authors/adrianzailic.webp'
 ogImage:
   url: '/assets/blog/aboutme/aboutme-adrianzailic.webp'
 ---

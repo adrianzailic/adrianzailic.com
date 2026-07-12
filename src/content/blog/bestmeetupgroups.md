@@ -3,9 +3,6 @@ title: " Top Picks: IT Meetup Groups in Bucharest"
 excerpt: "Bucharest's tech scene is flourishing, with IT professionals and enthusiasts seeking events to network, learn, and share knowledge. Whether you're a seasoned developer, a budding entrepreneur, or simply curious about the latest tech trends, joining a meetup group can be an excellent way to connect with like-minded individuals and stay updated with industry developments."
 coverImage: "/assets/blog/bestmeetupgroups/bucharest-city-it-groups.webp"
 date: "2024-03-30T11:20:07.322Z"
-author:
-  name: Adrian Zailic
-  picture: "/assets/blog/authors/adrianzailic.webp"
 ogImage:
   url: "/assets/blog/bestmeetupgroups/bucharest-city-it-groups.webp"
 ---
